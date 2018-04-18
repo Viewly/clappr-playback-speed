@@ -1,7 +1,7 @@
 /**
  * 1. Pump up specificity to override default clappr styles.
  */
-.playback-speed[data-clappr-playback-speed] { /* [1] */
+.playback-speed[class] { /* [1] */
     float: right;
     height: 100%;
     line-height: 32px;
@@ -51,11 +51,12 @@
 
     /**
      * Popup menu
+     *
+     * 1. Pump up specificity to override default clappr styles.
      */
-    .playback-speed__menu {
+    .playback-speed__menu[class] { /* [1] */
         background: rgba(#000, .65);
         display: none;
-        padding: 5px;
         width: 80px;
         position: absolute;
         bottom: 100%;
