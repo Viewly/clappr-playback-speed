@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Demo</title>
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Demo</title>
+    <style type="text/css">
+      #player {
+          position: relative;
+          display: block;
+          max-width: 640px;
+      }
+
+      #player:before {
+          content: "";
+          display: block;
+          width: 100%;
+          padding-bottom: 56.25%;
+      }
+
+      #player [data-player] {
+        position: absolute;
+        top:    0;
+        bottom: 0;
+        left:   0;
+        height: 100% !important;
+        width:  100% !important;
+      }
+    </style>
+  </head>
 <body>
 
 
