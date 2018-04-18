@@ -1,7 +1,7 @@
 import { Events, Styler, UICorePlugin, template } from 'clappr';
 import Mousetrap from 'mousetrap';
 import pluginHtml from './public/template.html';
-import pluginStyle from './public/style.sass';
+import pluginStyle from './public/style.scss';
 
 const DEFAULT_PLAYBACK_SPEEDS = [
   { value: 0.25, label: '0.25x' },
