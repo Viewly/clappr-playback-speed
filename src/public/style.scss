@@ -4,12 +4,13 @@
 
     button {
         background: none;
+        border: none;
         color: #fff;
         font-weight: bold;
     }
 }
 
-.plugin-playback-speed__menu {
+.playback-speed__menu {
     background: rgba(0, 0, 0, 0.666);
     display: none;
     padding: 5px !important;

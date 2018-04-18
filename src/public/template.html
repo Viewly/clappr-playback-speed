@@ -1,9 +1,9 @@
-<div class="plugin-playback-speed__controls">
+<div class="playback-speed__controls">
   <button data-playback-speed-decrease>-</button>
-  <button class="plugin-playback-speed__current" data-playback-speed-menu><%= currentSpeed %></button>
+  <button class="playback-speed__current" data-playback-speed-menu><%= currentSpeed %></button>
   <button data-playback-speed-increase>+</button>
 </div>
-<ul class="plugin-playback-speed__menu">
+<ul class="playback-speed__menu">
   <% for (var i = 0; i < speeds.length; i++) { %>
     <li><a href="#" data-playback-speed-value="<%= speeds[i].value %>"><%= speeds[i].label %></a></li>
   <% }; %>

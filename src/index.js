@@ -106,7 +106,7 @@ export default class PlaybackSpeedPlugin extends UICorePlugin {
   }
 
   handleMenuToggle(ev) {
-    this.$('.plugin-playback-speed__menu').toggle();
+    this.$('.playback-speed__menu').toggle();
   }
 
   handleSpeedDecrease(ev) {
@@ -129,7 +129,7 @@ export default class PlaybackSpeedPlugin extends UICorePlugin {
       return;
     }
 
-    this.$('.plugin-playback-speed__current').text(label);
+    this.$('.playback-speed__current').text(label);
     this.core.$el.find('video, audio').get(0).playbackRate = value;
   };
 
